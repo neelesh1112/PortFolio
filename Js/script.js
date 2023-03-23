@@ -1,6 +1,6 @@
 /* ===== Typping Animiatiom ====== */
 var typed = new Typed(".typing", {
-    strings: [" ", "Web Developer", "Competitive Coder", "Software Enginner", "Web Designer", "Open Source Contributer"],
+    strings: [" ", "Web Developer", "React Developer","MERN Stack", "Competitive Coder", "Software Enginner", "Web Designer"],
     typSpeed: 100,
     BackSpeed: 60,
     loop: true
