@@ -1,10 +1,36 @@
+
+
+
+
+
 /* ===== Typping Animiatiom ====== */
-var typed = new Typed(".typing", {
-    strings: [" ", "Web Developer", "React Developer","MERN Stack", "Competitive Coder", "Software Enginner", "Web Designer"],
-    typSpeed: 100,
-    BackSpeed: 60,
-    loop: true
-})
+var typeData = new Typed(".typing", {
+    strings: [
+        "Full Stack Developer",
+        "Web Developer",
+        "UI-UX Designer",
+        "Backend Developer",
+        "Coder",
+        "React Developer",
+        "MERN Stack Developer "
+    ],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 1000,
+});
+
+
+
+
+
+// var typed = new Typed(".typing", {
+//     strings: [" ", "Web Developer", "React Developer","MERN Stack", "Competitive Coder", "Software Enginner", "Web Designer"],
+//     typSpeed: 100,
+//     BackSpeed: 60,
+//     backDelay: 1000,
+//     loop: true
+// })
 
 /* ========== Aside =========== */
 
@@ -13,6 +39,8 @@ const nav = document.querySelector(".nav"),
     totalNavList = navList.length,
     allSection = document.querySelectorAll(".section"),
     totalSection = allSection.length;
+
+
 for (let i = 0; i < totalNavList; i++) {
     const a = navList[i].querySelector("a");
     a.addEventListener("click", function () {
