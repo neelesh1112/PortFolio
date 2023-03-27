@@ -48,6 +48,7 @@ ul{
     top: 82px;
     bottom: 0;
     right: 0;
+  
     z-index: 0;
     overflow-y: auto;
     overflow-x: hidden;
@@ -594,7 +595,7 @@ h3.my-profession{
 }
 .profiles .container{
     /* padding-bottom: 40px; */
-    padding-bottom: 0px;
+    padding-bottom: 10%;
 }
 .profiles .profiles-item{
     margin-bottom: 30px;
@@ -848,9 +849,10 @@ h3.my-profession{
 }
 .project-content-left{
     left: 10%;
+   
 }
 .project-content-right{
-    right: 10%;
+    left: 100px;
 }
 
 /* .project-skills-container{
@@ -1078,6 +1080,17 @@ h3.my-profession{
         display: block;
         margin-left: 0;
     }
+    .home .social{
+        width: 40%;
+        display: flex;
+        flex: 100%;
+        gap: .6rem;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+
 }
 
 @media(max-width:991px)
@@ -1120,7 +1133,8 @@ h3.my-profession{
     .home .home-info{
         flex: 0 0 100%;
         max-width: 100%;
-    }.contact .contact-info-item,
+    }
+    .contact .contact-info-item,
     .profiles .profiles-item{
         flex: 0 0 50%;
         max-width: 50%;
@@ -1155,23 +1169,7 @@ h3.my-profession{
     #project4, #project2{
         margin-left: 0px;
     }
-    /* .home .social{
-        left: 30%;
-    }
-    .home .social-media-item{
-        flex: 0 0 6%;
-        max-width: 6%;
-    }
-    .home .social .social-media-item .icon{
-        height: 35px;
-        width: 35px;
-        text-align: center;
-    }
-   
-    .home .social .social-media-item .icon .fa{
-        font-size: 25px;
-        line-height: 35px;
-    } */
+  
 }
 
 @media(max-width:767px)
@@ -1201,13 +1199,7 @@ h3.my-profession{
         top: 2%;
         left: 20%;
     }
-    /* .home .social{
-        left: 25%;
-    }
-    .home .social-media-item{
-        flex: 0 0 8%;
-        max-width: 8%;
-    } */
+  
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .projects .projects-item,
@@ -1220,6 +1212,9 @@ h3.my-profession{
         max-width: 100%;
     }
 
+    .home .social{
+        width: 60%;  
+    }
 
 
     .project-card{
@@ -1275,18 +1270,12 @@ h3.my-profession{
         top: 2%;
         left: 18%;
     }
-    /* .home .social{
-        left: 15%;
+    .home .social{
+        width: 58%;  
     }
-    .home .social-media-item{
-        flex: 0 0 12%;
-        max-width: 12%;
-    }
-    .home .btn{
-        margin-left: 35%;
-        margin-bottom: 20px;
-    } */
+
 }
+
 @media(max-width:570px)
 {
     .home-img::after{
@@ -1318,6 +1307,11 @@ h3.my-profession{
         width: 300px;
         height: 300px;
     }
+
+    .home .social{
+        width: 85%;  
+    }
+
 .project-container{
     gap: 80px;
 }
@@ -1357,9 +1351,10 @@ h3.my-profession{
     #project4 img{
         width: 100%;
         height: 250px;
-    }
-   
+    } 
 }
+
+
 @media(max-width:412px)
 {
     .home-img::after{
@@ -1387,41 +1382,12 @@ h3.my-profession{
         left: 0px;
         
     }
-    /* .home .social{
-        left: 5%;
-    }
-    .home .social-media-item{
-        flex: 0 0 13%;
-        max-width: 13%;
-    }
-    .home .social-media-item .icon{
-        width: 16px;
-        height: 16px;
-        text-align: center;
-    }
-    .home .social .social-media-item .icon .fa{
-        font-size: 20px;
-        line-height: 30x;
-    } */
+
     .home .home-img img{
         width: 300px;
         height: 300px;
     }
-    /* .home .btn{
-        margin-left: 35%;
-        margin-bottom: 20px;
-    }
-    */
 }
-/* @media(max-width:350px)
-{
-    .home .social-media-item{
-        flex: 0 0 13%;
-        max-width: 13%;
-    }
-    
-   
-} */
 
 
 @media(max-width:412px)
@@ -1451,9 +1417,7 @@ h3.my-profession{
         left: 10%;
         
     }
-    /* .home .social{
-        left: 6%;
-    } */
+   
     .home .home-img{
         margin-top: 15px;
         margin-bottom: 20px;
@@ -1463,42 +1427,11 @@ h3.my-profession{
         height: 200px;
         
     }
-    /* .home .btn{
-        margin-left: 27%;
-        margin-bottom: 20px;
-    } */
-    .home .social-media-item {
-        flex: 0 0 4%;
-        max-width: 2%;
-        text-align: center;
-        /* margin-top: 20px; */
-        padding-right: 12px;
-        height: 20px;
-        width: 20px;
-        margin-top: 10px;
-    }
-    
-    .home .social-media-item .icon{
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-        display: block;
-        /* margin: 0 auto 30px; */
-        text-align: center;
-        transition: all ease 0.3s;
-        background-color:#fff;
-        
-       
-    }
-    .home .social-media-item .icon .fa{
-        font-size: 14px;
-        line-height: 5px;
-       color: var(--skin-color);
-        transition: all ease 0.3s;
-       
-    }
+   
 
-
+    .home .social{
+        width: 100%;  
+    }
 
     .project-content{
         height: 150px;
@@ -1577,15 +1510,7 @@ h3.my-profession{
         top: 2%;
         left: 18%;
     }
-    /* .home .social{
-        left: 0;
-    }
-    .home .social-media-item{
-        flex: 0 0 10%;
-        max-width: 10%;
-        margin-right: 8px;
-    } */
-
+  
 
     .project-content{
         height: 120px;
