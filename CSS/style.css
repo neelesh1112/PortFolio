@@ -43,7 +43,7 @@ ul{
     display: block;
     padding: 0 30px;
     opacity: 1;
-    /* position: fixed;  */
+    position: fixed;  
     left: 0;
     top: 82px;
     bottom: 0;
@@ -763,7 +763,7 @@ h3.my-profession{
 } */
 
 .project-container{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 3rem 0;
 
@@ -774,7 +774,6 @@ h3.my-profession{
 
 
 .project-card{
-    
     width: 90%;
     height: 550px;
     background-size: cover;
@@ -1048,6 +1047,7 @@ h3.my-profession{
         top: 2%;
         left: 20PX;
     }
+  
 }
 @media (max-width:1199px)
 {
@@ -1121,10 +1121,39 @@ h3.my-profession{
         flex: 0 0 100%;
         max-width: 100%;
     }.contact .contact-info-item,
-    .portfolio .portfolio-item,
-    .service .service-item{
+    .profiles .profiles-item{
         flex: 0 0 50%;
         max-width: 50%;
+    }
+
+
+    
+   
+    .project-card{
+    
+        width: 100%;
+        height: 400px;
+    }
+
+    #project1 img{
+        width: 100%;
+        height: 400px;
+    }
+    #project2 img{
+        width: 100%;
+        height: 400px;
+    }
+    #project3 img{
+        width: 100%;
+        height: 400px;
+    }
+    #project4 img{
+        width: 100%;
+        height: 400px;
+    }
+
+    #project4, #project2{
+        margin-left: 0px;
     }
     /* .home .social{
         left: 30%;
@@ -1181,8 +1210,8 @@ h3.my-profession{
     } */
     .contact .contact-form .col-6,
     .contact .contact-info-item,
-    .portfolio .portfolio-item,
-    .service .service-item,
+    .projects .projects-item,
+    .profiles .profiles-item,
     .about .about-content .experience,
     .about .about-content .education,
     .about .about-content .skills,
@@ -1190,6 +1219,36 @@ h3.my-profession{
         flex: 0 0 100%;
         max-width: 100%;
     }
+
+
+
+    .project-card{
+    
+        width: 100%;
+        height: 300px;
+    }
+
+    #project1 img{
+        
+        width: 100%;
+        height: 300px;
+    }
+    #project2 img{
+        width: 100%;
+        height: 300px;
+    }
+    #project3 img{
+        width: 100%;
+        height: 300px;
+    }
+    #project4 img{
+        width: 100%;
+        height: 300px;
+    }
+    #project4, #project2{
+        margin-left: 0px;
+    }
+
 }
 @media(max-width:620px){
     .home-img::after{
@@ -1259,6 +1318,47 @@ h3.my-profession{
         width: 300px;
         height: 300px;
     }
+.project-container{
+    gap: 80px;
+}
+.project-content{
+    height: 180px;
+    bottom:5%;
+}
+.project-subHeading{
+    width: 80%;
+    font-size: 10px;
+  
+}
+
+.btn-group{
+
+    gap: 0.7rem;
+  
+}
+    .project-card{
+    
+        width: 100%;
+        height: 250px;
+    }
+  #project1 img{
+        
+        width: 100%;
+        height: 250px;
+    }
+    #project2 img{
+        width: 100%;
+        height: 250px;
+    }
+    #project3 img{
+        width: 100%;
+        height: 250px;
+    }
+    #project4 img{
+        width: 100%;
+        height: 250px;
+    }
+   
 }
 @media(max-width:412px)
 {
@@ -1377,7 +1477,7 @@ h3.my-profession{
         width: 20px;
         margin-top: 10px;
     }
-    .ho
+    
     .home .social-media-item .icon{
         height: 30px;
         width: 30px;
@@ -1397,6 +1497,55 @@ h3.my-profession{
         transition: all ease 0.3s;
        
     }
+
+
+
+    .project-content{
+        height: 150px;
+    
+        bottom: 10%;
+        gap: .2em;
+    
+    }
+    .project-heading{
+        font-size: 18px;
+    }
+    .project-subHeading{
+        width: 100%;
+    }
+    .project-content-left{
+        left: 0%;
+    }
+    .project-content-right{
+        right: 0%;
+    }
+
+    .project-card{
+    
+        width: 100%;
+        height: 150px;
+    }
+   .project-section .project-card .btn-group a i{
+        font-size: 16px;
+    }
+  #project1 img{
+        
+        width: 100%;
+        height: 150px;
+    }
+    #project2 img{
+        width: 100%;
+        height: 150px;
+    }
+    #project3 img{
+        width: 100%;
+        height: 150px;
+    }
+    #project4 img{
+        width: 100%;
+        height: 150px;
+    }
+   
     
    
 }
@@ -1436,6 +1585,45 @@ h3.my-profession{
         max-width: 10%;
         margin-right: 8px;
     } */
+
+
+    .project-content{
+        height: 120px;
+        bottom:10%;
+    }
+.project-heading{
+    width: 100%;
+    font-size: 20px;
+}
+    .project-subHeading{
+      display: none;
+    }
+    .project-card{
+    
+        width: 100%;
+        height: 120px;
+    }
+   .project-section .project-card .btn-group a i{
+        font-size: 18px;
+    }
+  #project1 img{
+        
+        width: 100%;
+        height: 120px;
+    }
+    #project2 img{
+        width: 100%;
+        height: 120px;
+    }
+    #project3 img{
+        width: 100%;
+        height: 120px;
+    }
+    #project4 img{
+        width: 100%;
+        height: 120px;
+    }
+   
 }
 
 
