@@ -597,6 +597,7 @@ h3.my-profession{
 .profiles .container{
     /* padding-bottom: 40px; */
     padding-bottom: 15%;
+    margin-bottom: 5rem;
 }
 .profiles .profiles-item{
     margin-bottom: 30px;
@@ -1326,9 +1327,9 @@ h3.my-profession{
     }
 
 
-    .profiles .container{
+    /* .profiles .container{
         margin-bottom: 10%;
-    }
+    } */
 .project-container{
     gap: 80px;
 }
@@ -1464,10 +1465,10 @@ h3.my-profession{
     .home .social{
         width: 100%;  
     }
-.profiles .container{
+/* .profiles .container{
    
     margin-bottom: 10%;
-}
+} */
     .project-content{
         height: 100%;
         bottom: 0%;
@@ -1542,10 +1543,10 @@ h3.my-profession{
         left: 18%;
     }
   
-    .profiles .container{
+    /* .profiles .container{
    
         margin-bottom: 12%;
-    }
+    } */
     .project-content{
         height: 120px;
         bottom:10%;
