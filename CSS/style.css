@@ -589,13 +589,14 @@ h3.my-profession{
 
 
 
-/* ===Sevices Section Start=== */
+/* ===Profiles Section Start=== */
 .profiles a{
     text-decoration: none;
 }
+
 .profiles .container{
     /* padding-bottom: 40px; */
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 }
 .profiles .profiles-item{
     margin-bottom: 30px;
@@ -650,7 +651,7 @@ h3.my-profession{
     line-height: 25px;
 
 }
-/* ===Services Section End=== */
+/* ===Profiles Section End=== */
 
 
 
@@ -852,7 +853,7 @@ h3.my-profession{
    
 }
 .project-content-right{
-    left: 100px;
+    left: 10%;
 }
 
 /* .project-skills-container{
@@ -1216,7 +1217,11 @@ h3.my-profession{
         width: 60%;  
     }
 
-
+   
+    .project-number{
+        font-size: 120px;
+     
+    }
     .project-card{
     
         width: 100%;
@@ -1273,7 +1278,15 @@ h3.my-profession{
     .home .social{
         width: 58%;  
     }
-
+    .project-content{
+        height: 200px;
+        bottom:25%;
+    }
+    .project-number{
+        font-size: 100px;
+        font-weight: 500;
+    }
+  
 }
 
 @media(max-width:570px)
@@ -1317,7 +1330,7 @@ h3.my-profession{
 }
 .project-content{
     height: 180px;
-    bottom:5%;
+    bottom:20%;
 }
 .project-subHeading{
     width: 80%;
@@ -1334,6 +1347,21 @@ h3.my-profession{
     
         width: 100%;
         height: 250px;
+    }
+    .project-heading{
+        font-size: 22px;
+    }
+    
+    .project-subHeading{
+        width: 100%;
+    }
+    .project-content-left{
+      
+        left: 0%;
+    }
+    .project-content-right{
+  
+        left: 0%;
     }
   #project1 img{
         
@@ -1434,25 +1462,21 @@ h3.my-profession{
     }
 
     .project-content{
-        height: 150px;
-    
-        bottom: 10%;
+        height: 100%;
+        bottom: 0%;
+        top: -10%;
         gap: .2em;
-    
     }
     .project-heading{
         font-size: 18px;
     }
-    .project-subHeading{
-        width: 100%;
-    }
-    .project-content-left{
-        left: 0%;
-    }
-    .project-content-right{
-        right: 0%;
-    }
+    
 
+    .project-number{
+        font-size: 80px;
+        font-weight: 400;
+    }
+   
     .project-card{
     
         width: 100%;
